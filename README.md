@@ -24,7 +24,7 @@ plt.style.use('ggplot')
 boston = pd.read_csv('BostonHousing.csv')
 ```
 
-The data features and target are present as columns in boston data. Boston data gives a set of independent as independent variables in data and the housing rate as `MEDV` in target property. Also feature names are listed in feature_names. The desription is available at [KAGGLE](https://www.kaggle.com/c/boston-housing). 
+This dataset contains a number of features that can be used to explain the `medv` target variable. A full description of the various features is available at [KAGGLE](https://www.kaggle.com/c/boston-housing). 
 
 ### Inspect the columns of the dataset and comment on type of variables present
 
